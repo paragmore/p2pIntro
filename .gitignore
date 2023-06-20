@@ -1,1 +1,4 @@
 /node_modules
+/peer-store
+/seed-store
+/store

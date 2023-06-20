@@ -8,13 +8,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "startServer": "nodemon server.js",
     "startClient": "nodemon client.js",
-    "startSwarm": "nodemon swarm.js"
+    "startSwarm": "nodemon swarm.js",
+    "startCoreStore": "nodemon corestore.js",
+    "startSeed": "nodemon seed.js",
+    "startPeer": "nodemon peer.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@hyperswarm/dht": "^5.0.25",
+    "corestore": "^6.0.2",
     "hyperswarm": "^3.0.4"
   }
 }
