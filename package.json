@@ -12,7 +12,9 @@
     "startCoreStore": "nodemon corestore.js",
     "startSeed": "nodemon seed.js",
     "startPeer": "nodemon peer.js",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "startAutobase2": "nodemon autobase2.js",
+    "startHyperNews": "nodemon hypernews.js"
   },
   "keywords": [],
   "author": "",
@@ -22,7 +24,10 @@
     "autobase": "^1.0.0-alpha.8",
     "chalk": "^5.2.0",
     "corestore": "^6.0.2",
+    "hyperbee": "^2.13.1",
     "hyperswarm": "^3.0.4",
+    "lexicographic-integer": "^1.1.0",
+    "minimist": "^1.2.8",
     "random-access-memory": "^6.2.0"
   }
 }
